@@ -15,6 +15,8 @@ public class ex01 {
 
         double areaQuadrado = (lado*lado);
 
+        scanner.close();
+
         System.out.println("A área do quadrado é: " + areaQuadrado);
 
 
