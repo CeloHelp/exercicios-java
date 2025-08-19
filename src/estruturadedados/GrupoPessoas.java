@@ -80,6 +80,10 @@ public class GrupoPessoas {
 
         scanner.close();
 
+        if (quantidadePessoas >= 20) {
+            System.out.println("Número máximo de pessoas atingido.");
+        }
+
     }
 
 
